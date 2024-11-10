@@ -71,21 +71,21 @@ console.log(num6);
 /*1) Запитати число у користувача,
  піднести його до квадрату і вивести результат.*/
 let number1 = Number(prompt("Write number"));
-number1 = number1 ** 2;
-console.log(number1);
+alert(number1 ** 2);
 
 /*2) Вивести середнє арифметичне двох чисел. 
  Числа запитувати у користувача.*/
 let number2 = Number(prompt("First number"));
 let number3 = Number(prompt("Second number"));
-let result1 = (number2 + number3) / 2;
-console.log(result1);
+alert((number2 + number3) / 2);
+
 
 /*3) Перевести кількість хвилин на секунди та вивести результат. 
  Число хвилин запитувати у користувача.  */
-let minute = Number(prompt("Write minutes"));
-minute *= 60;
-console.log(minute);
+let minutes = Number(prompt("Write minutes"));
+let seconds = minutes * 60;
+alert(minutes + " minutes = " + seconds + " seconds.");
+
 
 /*4) Створіть змінну greeting зі значенням 'Hello,'
   і оголосіть змінну userName. 
@@ -94,4 +94,5 @@ console.log(minute);
   (згадайте про конкатенацію) */
 const greeting = "Hello, ";
 const userName = prompt("What is your name?");
-console.log(greeting + userName);
+alert(greeting + userName + '!');
+
